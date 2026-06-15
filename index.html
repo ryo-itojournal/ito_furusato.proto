@@ -1,90 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>静岡県 伊東市 ふるさと納税 特設サイト</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>静岡県伊東市 ふるさと納税 特設サイト 試作版</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="logo">
-      <div class="mark">波</div>
-      <div><strong>静岡県 伊東市</strong><span>ふるさと納税 特設サイト</span></div>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">♨</div>
+      <div>
+        <p>静岡県 伊東市</p>
+        <h1>ふるさと納税 特設サイト</h1>
+      </div>
     </div>
     <nav>
-      <a href="#items">返礼品</a><a href="#feature">特集</a><a href="#people">ヒト図鑑</a><a href="#about">伊東市について</a><a href="#ranking">ランキング</a>
+      <a href="#ranking">ランキング</a>
+      <a href="#feature">特集</a>
+      <a href="#people">ヒト図鑑</a>
+      <a href="#category">返礼品を探す</a>
+      <a href="https://www.rakuten.co.jp/f222089-ito/" target="_blank">楽天ページへ</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="heroText">
-      <p>海と温泉、やさしい人がつくる、伊東のいいもの。</p>
-      <h1>人を知ると、<br>伊東がもっと好きになる。</h1>
-      <a class="btn" href="https://www.rakuten.co.jp/f222089-ito/" target="_blank">楽天ふるさと納税を見る</a>
-    </div>
-  </section>
-
-  <section class="quick">
-    <a href="#items">🔍 返礼品を探す</a><a href="#ranking">👑 ランキング</a><a href="#feature">☆ 特集</a><a href="#people">👤 ヒト図鑑</a><a href="#about">♨ 伊東市について</a>
-  </section>
-
   <main>
-    <section id="ranking" class="section">
-      <h2>RANKING<span>人気ランキング</span></h2>
-      <div class="cards ranking">
-        <article><b>1</b><div class="photo fish"></div><h3>地魚干物セット</h3><p>寄附金額 10,000円</p></article>
-        <article><b>2</b><div class="photo lobster"></div><h3>伊東海老セット</h3><p>寄附金額 30,000円</p></article>
-        <article><b>3</b><div class="photo sweets"></div><h3>伊東スイーツセット</h3><p>寄附金額 12,000円</p></article>
-        <article><b>4</b><div class="photo ryokan"></div><h3>伊東温泉 宿泊券</h3><p>寄附金額 50,000円</p></article>
-        <article><b>5</b><div class="photo kinme"></div><h3>金目鯛の煮付け</h3><p>寄附金額 10,000円</p></article>
-      </div>
-    </section>
-
-    <section id="feature" class="section split">
-      <div>
-        <h2>FEATURE<span>伊東の特集</span></h2>
-        <div class="featureGrid">
-          <a class="tile fish"><strong>地魚王国 伊東</strong><span>伊東の海が育てた自慢の海の幸。</span></a>
-          <a class="tile sweets"><strong>お菓子ぃ共和国</strong><span>職人の想いが詰まった伊東スイーツ。</span></a>
-          <a class="tile ryokan"><strong>温泉・宿泊特集</strong><span>海と山に囲まれた癒しの温泉時間。</span></a>
-          <a class="tile craft"><strong>いとうのいいもの</strong><span>受け継がれる技とものづくりの心。</span></a>
-          <a class="tile teiki"><strong>定期便特集</strong><span>旬の味を、毎月お届け。</span></a>
-          <a class="tile collabo"><strong>コラボ商品特集</strong><span>事業者同士がつくる新しい伊東。</span></a>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">海・温泉・人のぬくもり</span>
+        <h2>人を知ると、<br>伊東がもっと好きになる。</h2>
+        <p>返礼品をただ並べるだけではなく、つくる人・届ける人・迎える人の想いまで伝える、伊東市らしいふるさと納税へ。</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="https://www.rakuten.co.jp/f222089-ito/" target="_blank">楽天ふるさと納税を見る</a>
+          <a class="btn" href="#people">ヒト図鑑を見る</a>
         </div>
       </div>
-      <aside class="message">
-        <h2>CONCEPT<span>伊東市の考え方</span></h2>
-        <p>寄附金をただ集めるだけではなく、返礼品の先にいる人の想いを届け、伊東を応援してくれるファンを増やします。</p>
-        <p>AI時代だからこそ、人の表情、仕事の背景、地域の物語を大切に発信します。</p>
-      </aside>
-    </section>
-
-    <section id="people" class="section people">
-      <h2>PEOPLE<span>伊東ヒト図鑑</span></h2>
-      <p class="lead">返礼品を「モノ」ではなく、「人」から知る。</p>
-      <div class="cards peopleCards">
-        <article><div class="avatar a1"></div><small>干物職人</small><h3>鈴木 信一さん</h3><p>一枚一枚、心を込めて。伊東の味を全国へ。</p></article>
-        <article><div class="avatar a2"></div><small>パティシエ</small><h3>山本 彩香さん</h3><p>地元素材を活かした、笑顔になるお菓子を。</p></article>
-        <article><div class="avatar a3"></div><small>旅館の女将</small><h3>田中 美咲さん</h3><p>伊東の温かさを、おもてなしに込めて。</p></article>
+      <div class="hero-visual">
+        <div class="photo sea">伊東の海</div>
+        <div class="photo fish">干物・地魚</div>
+        <div class="photo onsen">温泉宿</div>
+        <div class="photo sweets">お菓子</div>
       </div>
     </section>
 
-    <section id="about" class="section about">
-      <div>
-        <h2>ABOUT ITO<span>伊東市について</span></h2>
-        <p>伊東市は、温泉、海、山の自然に恵まれたまち。豊かな食文化と、地域に根ざした事業者のものづくりが魅力です。</p>
-        <div class="icons"><span>♨ 温泉のまち</span><span>🐟 海の幸</span><span>⛰ 自然</span><span>🏯 歴史と文化</span></div>
+    <section id="ranking" class="section">
+      <div class="section-title">
+        <span>RANKING</span>
+        <h2>人気ランキング</h2>
+        <p>楽天ページの実際の上位傾向を参考に、宿泊クーポン・干物・地元グルメを見やすく整理。</p>
+      </div>
+      <div class="ranking-grid">
+        <article class="rank-card gold"><b>1</b><div class="thumb hotel">宿</div><h3>楽天トラベルクーポン</h3><p>寄附額 100,000円</p></article>
+        <article class="rank-card"><b>2</b><div class="thumb hotel">宿</div><h3>楽天トラベルクーポン</h3><p>寄附額 50,000円</p></article>
+        <article class="rank-card"><b>3</b><div class="thumb fish">魚</div><h3>丸達水産 中あじひもの</h3><p>寄附額 6,000円</p></article>
+        <article class="rank-card"><b>4</b><div class="thumb hotel">宿</div><h3>楽天トラベルクーポン</h3><p>寄附額 30,000円</p></article>
+        <article class="rank-card"><b>5</b><div class="thumb local">食</div><h3>うずわのたたき</h3><p>寄附額 15,000円</p></article>
       </div>
     </section>
 
-    <section class="section insta">
-      <h2>Instagram<span>伊東の「今」をお届け</span></h2>
-      <p>事業者取材、商品開発の裏側、職人の想いを発信します。</p>
-      <a class="btn outline" href="#">Instagramを見る</a>
+    <section id="feature" class="section cream">
+      <div class="section-title">
+        <span>FEATURE</span>
+        <h2>伊東らしさで選ぶ特集</h2>
+      </div>
+      <div class="feature-grid">
+        <a class="feature-card fish"><h3>地魚王国特集</h3><p>伊東の海が育てた、干物・金目鯛・うずわ。</p></a>
+        <a class="feature-card sweets"><h3>お菓子ぃ共和国特集</h3><p>旅の記憶に残る、伊東の甘いもの。</p></a>
+        <a class="feature-card onsen"><h3>温泉・宿泊特集</h3><p>高単価寄附につながる、宿泊・旅行の魅力。</p></a>
+        <a class="feature-card craft"><h3>いとうのいいもの特集</h3><p>職人の技と地域ブランドを返礼品へ。</p></a>
+        <a class="feature-card teiki"><h3>定期便特集</h3><p>季節ごとの伊東を、毎月楽しむ。</p></a>
+        <a class="feature-card collab"><h3>コラボ商品特集</h3><p>水産×宿泊、菓子×珈琲など新しい価値を。</p></a>
+      </div>
+    </section>
+
+    <section id="people" class="section people-section">
+      <div class="section-title">
+        <span>PEOPLE</span>
+        <h2>伊東ヒト図鑑</h2>
+        <p>AIには置き換えられない、人の想い・技術・地域への愛着を届けます。</p>
+      </div>
+      <div class="people-grid">
+        <article class="person"><div class="face">🐟</div><small>干物職人</small><h3>毎朝、市場で魚を見極める人</h3><p>一枚一枚の仕込みに、伊東の海の記憶を込めて。</p></article>
+        <article class="person"><div class="face">🍰</div><small>菓子職人</small><h3>旅の思い出をお菓子にする人</h3><p>地元素材を使い、伊東らしい甘さを全国へ。</p></article>
+        <article class="person"><div class="face">🏨</div><small>宿の女将</small><h3>また来たい時間をつくる人</h3><p>温泉とおもてなしで、寄附者を伊東ファンへ。</p></article>
+      </div>
+    </section>
+
+    <section id="category" class="section">
+      <div class="section-title">
+        <span>CATEGORY</span>
+        <h2>楽天ページのカテゴリを見やすく再整理</h2>
+      </div>
+      <div class="category-list">
+        <a>定期便</a><a>海産物・加工品</a><a>菓子・スイーツ</a><a>旅館・ホテル・飲食店</a><a>楽天トラベルクーポン</a><a>お茶・コーヒー</a><a>体験・サービス</a><a>雑貨・工芸品</a>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <h2>寄附額を集めるだけでなく、伊東を応援する人を増やす。</h2>
+      <p>楽天ページへの導線と、ヒト図鑑・SNS・地域ブランドをつなげる試作サイトです。</p>
+      <a class="btn primary" href="https://www.rakuten.co.jp/f222089-ito/" target="_blank">現在の楽天ページへ</a>
     </section>
   </main>
 
-  <footer>© Ito City Furusato Nozei Prototype / 提案用試作品</footer>
+  <footer>
+    <p>© Ito City Furusato Nozei Prototype / 提案用試作サイト</p>
+  </footer>
 </body>
 </html>
