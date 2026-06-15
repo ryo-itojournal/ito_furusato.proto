@@ -1,114 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>静岡県 伊東市 ふるさと納税 特設サイト</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="site-header">
-  <div class="brand">
-    <div class="logo">伊</div>
-    <div>
-      <p class="pref">静岡県 伊東市</p>
-      <h1>ふるさと納税 特設サイト</h1>
+  <header class="header">
+    <div class="logo">
+      <div class="mark">波</div>
+      <div><strong>静岡県 伊東市</strong><span>ふるさと納税 特設サイト</span></div>
     </div>
-  </div>
-  <nav>
-    <a href="#gifts">返礼品</a>
-    <a href="#features">特集</a>
-    <a href="#people">ヒト図鑑</a>
-    <a href="#about">伊東市について</a>
-    <a class="rakuten" href="https://www.rakuten.co.jp/f222089-ito/" target="_blank" rel="noreferrer">楽天へ</a>
-  </nav>
-</header>
+    <nav>
+      <a href="#items">返礼品</a><a href="#feature">特集</a><a href="#people">ヒト図鑑</a><a href="#about">伊東市について</a><a href="#ranking">ランキング</a>
+    </nav>
+  </header>
 
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-content">
-    <p class="eyebrow">海と温泉、やさしい人がつくる伊東のいいもの</p>
-    <h2>人を知ると、<br>伊東がもっと好きになる。</h2>
-    <p>返礼品の先にいる職人・生産者・事業者の想いを届ける、伊東市ふるさと納税。</p>
-    <div class="hero-actions">
-      <a href="#people">ヒト図鑑を見る</a>
-      <a href="#gifts" class="secondary">人気返礼品を見る</a>
+  <section class="hero">
+    <div class="heroText">
+      <p>海と温泉、やさしい人がつくる、伊東のいいもの。</p>
+      <h1>人を知ると、<br>伊東がもっと好きになる。</h1>
+      <a class="btn" href="https://www.rakuten.co.jp/f222089-ito/" target="_blank">楽天ふるさと納税を見る</a>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="quick-links">
-  <a href="#gifts">🔍 返礼品を探す</a>
-  <a href="#ranking">👑 ランキング</a>
-  <a href="#features">⭐ 特集</a>
-  <a href="#people">👤 ヒト図鑑</a>
-  <a href="#about">♨ 伊東市について</a>
-</section>
+  <section class="quick">
+    <a href="#items">🔍 返礼品を探す</a><a href="#ranking">👑 ランキング</a><a href="#feature">☆ 特集</a><a href="#people">👤 ヒト図鑑</a><a href="#about">♨ 伊東市について</a>
+  </section>
 
-<main>
-<section id="ranking" class="section">
-  <div class="section-title">
-    <span>RANKING</span>
-    <h2>人気ランキング</h2>
-  </div>
-  <div class="ranking-grid" id="gifts">
-    <article class="gift-card"><b>1</b><div class="photo fish"></div><h3>伊東の干物おまかせセット</h3><p>寄附金額 10,000円</p></article>
-    <article class="gift-card"><b>2</b><div class="photo kinmedai"></div><h3>金目鯛の煮付け</h3><p>寄附金額 12,000円</p></article>
-    <article class="gift-card"><b>3</b><div class="photo sweets"></div><h3>伊東スイーツ詰め合わせ</h3><p>寄附金額 12,000円</p></article>
-    <article class="gift-card"><b>4</b><div class="photo hotel"></div><h3>伊東温泉 宿泊クーポン</h3><p>寄附金額 50,000円</p></article>
-    <article class="gift-card"><b>5</b><div class="photo lobster"></div><h3>伊豆海老セット</h3><p>寄附金額 30,000円</p></article>
-  </div>
-</section>
+  <main>
+    <section id="ranking" class="section">
+      <h2>RANKING<span>人気ランキング</span></h2>
+      <div class="cards ranking">
+        <article><b>1</b><div class="photo fish"></div><h3>地魚干物セット</h3><p>寄附金額 10,000円</p></article>
+        <article><b>2</b><div class="photo lobster"></div><h3>伊東海老セット</h3><p>寄附金額 30,000円</p></article>
+        <article><b>3</b><div class="photo sweets"></div><h3>伊東スイーツセット</h3><p>寄附金額 12,000円</p></article>
+        <article><b>4</b><div class="photo ryokan"></div><h3>伊東温泉 宿泊券</h3><p>寄附金額 50,000円</p></article>
+        <article><b>5</b><div class="photo kinme"></div><h3>金目鯛の煮付け</h3><p>寄附金額 10,000円</p></article>
+      </div>
+    </section>
 
-<section id="features" class="section split">
-  <div>
-    <div class="section-title left"><span>FEATURE</span><h2>特集</h2></div>
-    <div class="feature-grid">
-      <article class="feature f1"><h3>地魚王国 伊東</h3><p>伊東の海が育てた、旬の魚を全国へ。</p></article>
-      <article class="feature f2"><h3>お菓子ぃ共和国</h3><p>素材と手仕事にこだわる伊東スイーツ。</p></article>
-      <article class="feature f3"><h3>温泉・宿泊特集</h3><p>癒しの時間を、伊東の温泉宿で。</p></article>
-      <article class="feature f4"><h3>いとうのいいもの</h3><p>受け継がれる技とものづくりの心。</p></article>
-      <article class="feature f5"><h3>定期便特集</h3><p>旬の味を、毎月お届け。</p></article>
-      <article class="feature f6"><h3>伊東の味覚特集</h3><p>海・山・温泉地の恵みを楽しむ。</p></article>
-    </div>
-  </div>
+    <section id="feature" class="section split">
+      <div>
+        <h2>FEATURE<span>伊東の特集</span></h2>
+        <div class="featureGrid">
+          <a class="tile fish"><strong>地魚王国 伊東</strong><span>伊東の海が育てた自慢の海の幸。</span></a>
+          <a class="tile sweets"><strong>お菓子ぃ共和国</strong><span>職人の想いが詰まった伊東スイーツ。</span></a>
+          <a class="tile ryokan"><strong>温泉・宿泊特集</strong><span>海と山に囲まれた癒しの温泉時間。</span></a>
+          <a class="tile craft"><strong>いとうのいいもの</strong><span>受け継がれる技とものづくりの心。</span></a>
+          <a class="tile teiki"><strong>定期便特集</strong><span>旬の味を、毎月お届け。</span></a>
+          <a class="tile collabo"><strong>コラボ商品特集</strong><span>事業者同士がつくる新しい伊東。</span></a>
+        </div>
+      </div>
+      <aside class="message">
+        <h2>CONCEPT<span>伊東市の考え方</span></h2>
+        <p>寄附金をただ集めるだけではなく、返礼品の先にいる人の想いを届け、伊東を応援してくれるファンを増やします。</p>
+        <p>AI時代だからこそ、人の表情、仕事の背景、地域の物語を大切に発信します。</p>
+      </aside>
+    </section>
 
-  <div id="people" class="people-box">
-    <div class="section-title"><span>PEOPLE</span><h2>伊東ヒト図鑑</h2><p>返礼品の先にいる「人」を紹介します。</p></div>
-    <div class="people-grid">
-      <article><div class="avatar a1"></div><small>干物職人</small><h3>鈴木 信一さん</h3><p>一枚一枚、心を込めて伊東の味を全国へ。</p></article>
-      <article><div class="avatar a2"></div><small>パティシエ</small><h3>山本 彩香さん</h3><p>地元素材を活かした笑顔のお菓子づくり。</p></article>
-      <article><div class="avatar a3"></div><small>旅館の女将</small><h3>田中 美咲さん</h3><p>おもてなしの心で、伊東の温かさを届けます。</p></article>
-    </div>
-  </div>
-</section>
+    <section id="people" class="section people">
+      <h2>PEOPLE<span>伊東ヒト図鑑</span></h2>
+      <p class="lead">返礼品を「モノ」ではなく、「人」から知る。</p>
+      <div class="cards peopleCards">
+        <article><div class="avatar a1"></div><small>干物職人</small><h3>鈴木 信一さん</h3><p>一枚一枚、心を込めて。伊東の味を全国へ。</p></article>
+        <article><div class="avatar a2"></div><small>パティシエ</small><h3>山本 彩香さん</h3><p>地元素材を活かした、笑顔になるお菓子を。</p></article>
+        <article><div class="avatar a3"></div><small>旅館の女将</small><h3>田中 美咲さん</h3><p>伊東の温かさを、おもてなしに込めて。</p></article>
+      </div>
+    </section>
 
-<section id="about" class="section about">
-  <div>
-    <span>ABOUT ITO</span>
-    <h2>伊東市について</h2>
-    <p>温泉と海、山の自然に恵まれたまち、伊東市。豊かな食文化と、ものづくりに向き合う人々が、ここにしかない魅力を育てています。</p>
-    <a href="https://www.city.ito.shizuoka.jp/" target="_blank" rel="noreferrer">伊東市を知る</a>
-  </div>
-  <div class="about-cards">
-    <article>♨<h3>温泉のまち</h3><p>日本有数の温泉地。</p></article>
-    <article>🐟<h3>海の幸が豊富</h3><p>新鮮な魚をお届け。</p></article>
-    <article>⛰<h3>自然がいっぱい</h3><p>海も山も楽しめる。</p></article>
-    <article>🏯<h3>歴史と文化</h3><p>伝統と文化が息づく。</p></article>
-  </div>
-</section>
+    <section id="about" class="section about">
+      <div>
+        <h2>ABOUT ITO<span>伊東市について</span></h2>
+        <p>伊東市は、温泉、海、山の自然に恵まれたまち。豊かな食文化と、地域に根ざした事業者のものづくりが魅力です。</p>
+        <div class="icons"><span>♨ 温泉のまち</span><span>🐟 海の幸</span><span>⛰ 自然</span><span>🏯 歴史と文化</span></div>
+      </div>
+    </section>
 
-<section class="section instagram">
-  <div>
-    <h2>伊東の「今」をお届け</h2>
-    <p>事業者取材、商品開発の裏側、伊東の風景をSNSで発信します。</p>
-  </div>
-  <a href="#">Instagramを見る</a>
-</section>
-</main>
+    <section class="section insta">
+      <h2>Instagram<span>伊東の「今」をお届け</span></h2>
+      <p>事業者取材、商品開発の裏側、職人の想いを発信します。</p>
+      <a class="btn outline" href="#">Instagramを見る</a>
+    </section>
+  </main>
 
-<footer>
-  <p>© Ito City Furusato Nozei Prototype / 提案用試作品</p>
-</footer>
+  <footer>© Ito City Furusato Nozei Prototype / 提案用試作品</footer>
 </body>
 </html>
